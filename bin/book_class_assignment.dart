@@ -54,19 +54,19 @@ void main() {
     print('Author: ${book1.getAuthor()}');
     print('Publication Year: ${book1.getPublicationYear()}');
     print('Pages Read: ${book1.getPagesRead()}');
-    print('Book Age: ${book1.getBookAge()} years');
+    print('Book Age: ${book1.getBookAge()} years\n');
 
   print('Title: ${book2.getTitle()}');
   print('Author: ${book2.getAuthor()}');
   print('Publication Year: ${book2.getPublicationYear()}');
   print('Pages Read: ${book2.getPagesRead()}');
-  print('Book Age: ${book2.getBookAge()} years');
+  print('Book Age: ${book2.getBookAge()} years\n');
 
   print('Title: ${book3.getTitle()}');
   print('Author: ${book3.getAuthor()}');
   print('Publication Year: ${book3.getPublicationYear()}');
   print('Pages Read: ${book3.getPagesRead()}');
-  print('Book Age: ${book3.getBookAge()} years');
+  print('Book Age: ${book3.getBookAge()} years\n');
 
 
   print('Total number of books created: ${Book.totalBooks}');
